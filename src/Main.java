@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         Cliente cliente = new Cliente();
         cliente.setNome("Rosimar");
@@ -14,7 +15,5 @@ public class Main {
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
-
-
     }
 }
